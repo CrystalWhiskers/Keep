@@ -1,0 +1,23 @@
+# Unity generates these folders itself; they are huge and rebuild automatically
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+
+# Builds go on the GitHub Releases page, not in the repo
+/Build/
+/Builds/
+
+# IDE files (Visual Studio rewrites these every time you open the project)
+.vs/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+
+# Windows junk
+Thumbs.db
+desktop.ini

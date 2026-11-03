@@ -1,0 +1,95 @@
+
+=== core (n = 20) ===
+basic army + lots of Shield     : 33 %   (unfinished 0 %, avg turns 17.6)
+basic army + lots of Sword      : 60 %   (unfinished 3 %, avg turns 16.4)
+basic army + lots of Bow        : 48 %   (unfinished 3 %, avg turns 16.6)
+basic army + lots of Knight     : 68 %   (unfinished 0 %, avg turns 16.5)
+basic army + lots of Spear      : 35 %   (unfinished 0 %, avg turns 16.5)
+basic army + lots of Healer     : 25 %   (unfinished 0 %, avg turns 17.4)
+basic army + lots of Twinblade  : 75 %   (unfinished 3 %, avg turns 15.2)
+basic army + lots of Crossbow   : 68 %   (unfinished 0 %, avg turns 15.9)
+basic army + lots of Rider      : 70 %   (unfinished 0 %, avg turns 15.2)
+basic army + lots of Pyromancer : 58 %   (unfinished 0 %, avg turns 15.9)
+basic army + lots of Ninja      : 50 %   (unfinished 0 %, avg turns 16.0)
+basic army + lots of Giant      : 75 %   (unfinished 3 %, avg turns 17.1)
+basic army + lots of Druid      : 30 %   (unfinished 0 %, avg turns 17.0)
+basic army + lots of Wyvern     : 55 %   (unfinished 3 %, avg turns 16.1)
+basic army + lots of Minions    : 45 %   (unfinished 3 %, avg turns 16.9)
+squad        recruits  dmg/recruit  kills/recruit  lost/recruit  dmg/gold  attacks/recruit  dmg/attack
+Shield            567         2.26           0.26          0.71      1.13             1.81        0.69
+Sword           12480         5.63           0.93          0.68      1.88             1.51        2.46
+Bow              9336         6.23           1.11          0.56      2.08             2.61        2.10
+Knight            309         8.53           1.47          0.66      1.71             2.35        2.50
+Spear            8399         2.68           0.35          0.85      2.68             0.88        1.95
+Healer            436         1.36           0.12          0.56      0.45             1.20        0.00
+Twinblade         336         8.26           1.43          0.54      2.06             1.71        3.83
+Minions          6385         1.69           0.27          1.00      1.69             0.62        2.27
+Crossbow          278        10.35           1.91          0.50      2.07             2.85        3.10
+Rider             307         8.12           1.43          0.68      1.62             2.08        2.90
+Pyromancer        319         6.88           1.06          0.59      1.72             1.90        3.12
+Ninja             339         5.05           0.87          0.76      1.26             1.48        2.46
+Giant             154        12.60           2.18          0.53      1.57             3.17        2.84
+Druid             436         4.49           0.72          0.67      1.50             2.85        1.21
+Wyvern            271         6.42           1.23          0.72      1.28             1.59        3.01
+
+=== mono (n = 20) ===
+row vs column, % score     Shiel Sword   Bow Knigh Spear Twinb Cross Rider Pyrom
+Shield                          -     0    10    15     0     0     6    10     8
+Sword                         100     -    80    78   100    25    75    73    88
+Bow                            90    20     -    50    95     8    50     8    63
+Knight                         85    23    50     -    83     0    55    28    63
+Spear                         100     0     5    18     -     0    13     0     8
+Twinblade                     100    75    93   100   100     -   100    88   100
+Crossbow                       94    25    50    45    88     0     -     3    48
+Rider                          90    28    93    73   100    13    98     -    95
+Pyromancer                     93    13    38    38    93     0    53     5     -
+
+single-type ranking:
+  Twinblade   94 %   cost 4
+  Sword       77 %   cost 3
+  Rider       73 %   cost 5
+  Knight      48 %   cost 5
+  Bow         48 %   cost 3
+  Crossbow    44 %   cost 5
+  Pyromancer  41 %   cost 4
+  Spear       18 %   cost 1
+  Shield       6 %   cost 2
+
+=== spells (n = 20) ===
+Meteor     alone: vs no spells 88 %   vs Bolt alone 55 %
+Ward       alone: vs no spells 45 %   vs Bolt alone 11 %
+Haste      alone: vs no spells 78 %   vs Bolt alone 48 %
+Bolt       alone: vs no spells 85 %   vs Bolt alone 50 %
+Renew      alone: vs no spells 58 %   vs Bolt alone 10 %
+Rally      alone: vs no spells 90 %   vs Bolt alone 45 %
+Stonewall  alone: vs no spells 35 %   vs Bolt alone 10 %
+Transmute  alone: vs no spells 68 %   vs Bolt alone 25 %
+Rally/Transmute/Bolt/Meteor vs the default four: 53 %
+Renew/Stonewall/Ward/Bolt vs the default four: 30 %
+Transmute/Rally/Haste/Ward vs the default four: 25 %
+
+=== hills (n = 20) ===
+ranged army vs melee army: with hills 28 %, flat 18 %
+Bow + Sword vs Sword + Knight: with hills 38 %, flat 45 %
+Crossbow + Sword vs Sword + Knight: with hills 53 %, flat 48 %
+Pyromancer + Sword vs Sword + Knight: with hills 58 %, flat 48 %
+
+=== campaign (n = 20) ===
+I   Embers at the Border  : AI player wins 75 %, ahead at turn 40  0 %, avg turns 13.9, own Keep HP left 14.3
+II  The Calder Heights    : AI player wins 75 %, ahead at turn 40  0 %, avg turns 16.7, own Keep HP left 14.3
+III The Long Night        : AI player wins 60 %, ahead at turn 40  0 %, avg turns 9.5, own Keep HP left 5.9
+IV  Riders at the Ford    : AI player wins 65 %, ahead at turn 40  0 %, avg turns 16.9, own Keep HP left 13.0
+V   The Ember Crown       : AI player wins 55 %, ahead at turn 40  5 %, avg turns 24.9, own Keep HP left 10.9
+
+=== skirmish (n = 20) ===
+Easy   10x10: AI player wins 90 %, ahead at turn 40  0 %
+Easy   12x12: AI player wins 95 %, ahead at turn 40  0 %
+Easy   15x15: AI player wins 90 %, ahead at turn 40  0 %
+Normal 10x10: AI player wins 65 %, ahead at turn 40  0 %
+Normal 12x12: AI player wins 80 %, ahead at turn 40  0 %
+Normal 15x15: AI player wins 70 %, ahead at turn 40  0 %
+Hard   10x10: AI player wins 55 %, ahead at turn 40  0 %
+Hard   12x12: AI player wins 50 %, ahead at turn 40  0 %
+Hard   15x15: AI player wins 25 %, ahead at turn 40  5 %
+
+elapsed 68s
